@@ -1,6 +1,6 @@
 import React from 'react'
 import PlayerList from './components/PlayerList.js'
-import PlayerForm from './components/PlayerForm.js'
+import PlayerForm from './components/PlayerForm.jsx'
 
 import './App.css'
 
