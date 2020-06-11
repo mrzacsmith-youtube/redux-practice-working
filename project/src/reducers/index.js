@@ -1,3 +1,4 @@
+// Part 1 of Car sales project README (https://github.com/LambdaSchool/Car-Sales)
 // 1. create initial state
 const initialState = {
   players: [],
