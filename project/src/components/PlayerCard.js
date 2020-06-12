@@ -1,9 +1,11 @@
 import React from 'react'
 
-const PlayerCard = () => {
+const PlayerCard = ({ player }) => {
   return (
-    <div>
-      <h1>Hello I am kick ass baller! </h1>
+    <div className="card">
+      <h2>{player.name}</h2>
+      <p>{player.rank}</p>
+      <p>{player.nickname}</p>
     </div>
   )
 }

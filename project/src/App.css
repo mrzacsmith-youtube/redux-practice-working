@@ -48,7 +48,7 @@ body {
 }
 
 .card {
-  background-color: rgba(243, 241, 239, 1);
+  background-color: rgb(230, 166, 103);
   margin: 2rem;
   border-radius: 5%;
   width: 12rem;
