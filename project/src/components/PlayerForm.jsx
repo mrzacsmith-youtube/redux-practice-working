@@ -27,7 +27,7 @@ const PlayerForm = (props) => {
           type="text"
           name="name"
           label="name"
-          placerholder="Player Name"
+          placeholder="Player Name"
           value={props.name}
           onChange={inputHandler}
           className="input"
@@ -36,7 +36,7 @@ const PlayerForm = (props) => {
           type="text"
           name="rank"
           label="rank"
-          placerholder="Player Rank"
+          placeholder="Player Rank"
           value={props.rank}
           onChange={inputHandler}
           className="input"
@@ -45,7 +45,7 @@ const PlayerForm = (props) => {
           type="text"
           name="nickname"
           label="nickname"
-          placerholder="Player Nickname"
+          placeholder="Player Nickname"
           value={props.nickname}
           onChange={inputHandler}
           className="input"

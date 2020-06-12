@@ -15,7 +15,7 @@ const PlayerList = (props) => {
     <div>
       <h1>Soccer Players List</h1>
       <div className="card-container">
-        {props.player.map((player) => (
+        {props.players.map((player) => (
           <PlayerCard key={player.id} player={player} />
         ))}
       </div>
